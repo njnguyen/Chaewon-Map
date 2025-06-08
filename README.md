@@ -12,6 +12,6 @@ How does it work?
 * User input for origin/destination is taken
 * Local map is pulled using OpenStreetMap API
 * Street pattern is processed as an image using the scikit-image package and converted into a numpy array (WIP)
-* Chaewon letter pattern is feature-matched onto processed map image to find the most CONVENIENT Chaewon-shaped path
+* Chaewon letter pattern is feature-matched onto processed map image to find the most CONVENIENT Chaewon-shaped path (WIP)
 * Coordinates of Chaewon lettering is converted back from numpy array into longitude/latitude coordinates (WIP)
 * Coordinates are then passed back to OpenStreetMap to create a route to display to the end-user (WIP)
