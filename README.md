@@ -7,6 +7,7 @@ How-to:
 * input destination and origin as you would a regular GPS (super user friendly! no additional learning curve required!)
 * follow the dynamically™ generated path that takes you to your destination via the most CHAEWON path
 
+![Chaewon Cover](readme_cover.png)
 
 How does it work?
 * User input for origin/destination is taken
@@ -15,3 +16,4 @@ How does it work?
 * Chaewon letter pattern is feature-matched onto processed map image to find the most CONVENIENT Chaewon-shaped path (WIP)
 * Coordinates of Chaewon lettering is converted back from numpy array into longitude/latitude coordinates (WIP)
 * Coordinates are then passed back to OpenStreetMap to create a route to display to the end-user (WIP)
+
